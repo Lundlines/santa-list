@@ -6,7 +6,7 @@ SITE_NAME="santa.goodies"
 ADMIN_EMAIL="aliaksei@hello.fresh"
 
 # 1 - copy from a dev location to an Apache-accessible location (/var/www)
-sudo rm -rf "$DEST_DIR"
+sudo rm -rf "$DEST_DIR" 
 sudo mkdir -p "$DEST_DIR"
 sudo cp -af "${THINGS2COPY[@]}" "$DEST_DIR"
 
